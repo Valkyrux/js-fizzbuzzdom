@@ -1,0 +1,26 @@
+/* palette */
+:root {
+    --dark-blue: rgb(24, 58, 74);
+    --light-blue: rgb(61, 136, 174);
+    --green: rgb(97, 210, 164);
+    --yellow: rgb(249, 210, 119);
+    --red: rgb(222, 84, 113);
+}
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* container */
+.container {
+    background-color: var(--dark-blue);
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    padding: 20px;
+} 
