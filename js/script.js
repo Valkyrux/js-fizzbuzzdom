@@ -5,6 +5,7 @@ for (let i = 0; i < 100; i++) {
     // creo l'elemento da aggiungere all'index
     const li = document.createElement("li");
     const innerText = li.innerHTML = i + 1;
+    // selezione degli elementi con assegnazione della classe speciale
     if((innerText % 15) == 0) {
         li.classList = "red";
         li.innerHTML = "fizzbuzz";
